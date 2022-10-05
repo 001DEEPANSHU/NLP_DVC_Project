@@ -139,5 +139,9 @@ configs/secrets.yaml
 
 # add your env folder here if its there
 
+# data files
+artifacts/prepared/test.tsv
+artifacts/prepared/train.tsv
+
 
 
