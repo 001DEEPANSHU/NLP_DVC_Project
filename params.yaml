@@ -3,3 +3,7 @@ prepare:
   split: 0.3
   seed: 22s
   tag: <python>
+
+featurize:
+  max_features: 2500
+  n_grams: 2 
