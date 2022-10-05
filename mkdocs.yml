@@ -3,7 +3,7 @@ site_name: NLP_DVC_Project
 # defeine TOC or order of website-
 nav:
   - Home: index.md
-  - Stage 1: Data Preparation: stage1dataprep.md
+  - Stage 1 Data Preparation: stage1dataprep.md
 
 site_author: Deepanshu Kaushik
 site_description: >-
