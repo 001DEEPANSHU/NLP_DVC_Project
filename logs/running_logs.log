@@ -1,0 +1,20 @@
+[2022-10-05 17:08:49,788: INFO: stage_01_data_preparation]: 
+********************
+[2022-10-05 17:08:49,788: INFO: stage_01_data_preparation]: >>>>> stage Data_Preparation started <<<<<
+[2022-10-05 17:08:49,806: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-10-05 17:08:49,810: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-10-05 17:08:49,810: ERROR: stage_01_data_preparation]: 'prepare'
+Traceback (most recent call last):
+  File "src/stage_01_data_preparation.py", line 47, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+  File "src/stage_01_data_preparation.py", line 29, in main
+    split = params["prepare"]["split"]
+KeyError: 'prepare'
+[2022-10-05 17:09:23,516: INFO: stage_01_data_preparation]: 
+********************
+[2022-10-05 17:09:23,516: INFO: stage_01_data_preparation]: >>>>> stage Data_Preparation started <<<<<
+[2022-10-05 17:09:23,521: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-10-05 17:09:23,522: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-10-05 17:09:23,522: INFO: common]: created directory at: artifacts/prepared
+[2022-10-05 17:09:23,522: INFO: stage_01_data_preparation]: >>>>> stage Data_Preparation completed!<<<<<
+

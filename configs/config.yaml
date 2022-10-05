@@ -20,8 +20,8 @@ plots:
   ROC: roc.json
   
 source_data:
-  URL: "https://drive.google.com/drive/u/0/folders/1hhSf_G-az-g_ia4jG8rh2yOPsuEgzNc6"
-  data_dir: data
+  
+  data_dir: xmldata
   data_file: data.xml
 
 
