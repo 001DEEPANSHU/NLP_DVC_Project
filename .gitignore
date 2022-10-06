@@ -144,4 +144,8 @@ artifacts/prepared/test.tsv
 artifacts/prepared/train.tsv
 
 
+#running logs
+logs/running_logs.log
+
+
 
