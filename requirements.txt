@@ -8,5 +8,6 @@ mkdocs-material
 Scikit-learn
 Scipy
 lxml
+joblib
 ### local packages -
 -e . # << uncomment this to install from setup.py
