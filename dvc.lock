@@ -7,8 +7,8 @@ stages:
       md5: f2a75058036f3df7fde435f01b3e838e
       size: 2243
     - path: src/utils
-      md5: 0355adb3001d7bf854bcc6abf151bc4a.dir
-      size: 5832
+      md5: 19866c44a0003f24bf742c5f24ec994f.dir
+      size: 5866
       nfiles: 6
     - path: xmldata/data.xml
       md5: a304afb96060aad90176268345e10355
@@ -29,11 +29,11 @@ stages:
       md5: ab2ccb2e2ccd05e5bd5f399f8d2222aa
       size: 3260
     - path: src/utils
-      md5: 0355adb3001d7bf854bcc6abf151bc4a.dir
-      size: 5832
+      md5: 19866c44a0003f24bf742c5f24ec994f.dir
+      size: 5866
       nfiles: 6
     outs:
     - path: artifacts/features
-      md5: 96ec106483fc1819878b5e284ac3b2c8.dir
-      size: 16589024
+      md5: d64c9b4102b87ad057bca38a834d6977.dir
+      size: 12542064
       nfiles: 2
