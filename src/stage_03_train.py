@@ -7,7 +7,7 @@ from src.utils.common import read_yaml, create_directories
 import random
 import joblib
 import numpy as np
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import DecisionTreeClassifier
 
 
 STAGE = "Training" ## <<< change stage name 
@@ -45,13 +45,15 @@ def main(config_path, params_path):
     logging.info(f"Y matrix size is {labels.shape}")
     
     seed = params["train"]["seed"]
-    n_est = params["train"]["n_est"]
-    n_jobs = params["train"]["n_jobs"]
-    min_split = params["train"]["min_split"]
-    
-    model = RandomForestClassifier( n_estimators=n_est, min_samples_split= min_split, 
-                                   n_jobs = n_jobs, random_state=seed)
+    criterion = params["train"]["criterion"]
+    min_samples_split = params["train"]["min_samples_split"]
 
+    
+    model = DecisionTreeClassifier( criterion=criterion, 
+                                #    min_samples_split= min_samples_split, 
+                                   random_state=seed)
+
+    logging.info(f"Model training started")
     model.fit(X, labels)
     joblib.dump(model, model_path)
     
