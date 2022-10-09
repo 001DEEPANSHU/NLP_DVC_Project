@@ -50,9 +50,6 @@ def main(config_path, params_path):
 
     
     model = LogisticRegression()
-    # model = DecisionTreeClassifier( criterion=criterion, 
-    #                             #    min_samples_split= min_samples_split, 
-    #                                random_state=seed)
 
     logging.info(f"Model training started")
     model.fit(X, labels)
