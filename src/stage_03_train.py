@@ -7,7 +7,7 @@ from src.utils.common import read_yaml, create_directories
 import random
 import joblib
 import numpy as np
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.linear_model import LogisticRegression
 
 
 STAGE = "Training" ## <<< change stage name 
@@ -34,7 +34,7 @@ def main(config_path, params_path):
     model_dir_path = os.path.join(artifacts["ARTIFACTS_DIR"], model_dir)
     create_directories([model_dir_path])
     model_name = artifacts["MODEL_NAME"]
-    model_path = os.path.join(model_dir_path, model_dir)
+    model_path = os.path.join(model_dir_path, model_name)
     
     matrix = joblib.load(featurized_train_data_path)
     labels = np.squeeze(matrix[:,1].toarray())
@@ -49,12 +49,14 @@ def main(config_path, params_path):
     min_samples_split = params["train"]["min_samples_split"]
 
     
-    model = DecisionTreeClassifier( criterion=criterion, 
-                                #    min_samples_split= min_samples_split, 
-                                   random_state=seed)
+    model = LogisticRegression()
+    # model = DecisionTreeClassifier( criterion=criterion, 
+    #                             #    min_samples_split= min_samples_split, 
+    #                                random_state=seed)
 
     logging.info(f"Model training started")
     model.fit(X, labels)
+    logging.info(f"Model training completed")
     joblib.dump(model, model_path)
     
     logging.info(f"Successfully saved the model at {model_path}")

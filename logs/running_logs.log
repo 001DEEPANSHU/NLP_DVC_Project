@@ -1,0 +1,42 @@
+[2022-10-09 21:49:45,924: INFO: stage_03_train]: 
+********************
+[2022-10-09 21:49:45,925: INFO: stage_03_train]: >>>>> stage Training started <<<<<
+[2022-10-09 21:49:45,929: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-10-09 21:49:45,932: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-10-09 21:49:45,933: INFO: common]: created directory at: artifacts/model
+[2022-10-09 21:49:46,059: INFO: stage_03_train]: Input matrix size is (17472, 2502)
+[2022-10-09 21:49:46,059: INFO: stage_03_train]: X matrix size is (17472, 2500)
+[2022-10-09 21:49:46,060: INFO: stage_03_train]: Y matrix size is (17472,)
+[2022-10-09 21:49:46,060: INFO: stage_03_train]: Model training started
+[2022-10-09 22:11:19,062: INFO: stage_03_train]: Model training completed
+[2022-10-09 22:11:21,195: INFO: stage_03_train]: Successfully saved the model at artifacts/model/model
+[2022-10-09 22:11:21,232: INFO: stage_03_train]: >>>>> stage Training completed!<<<<<
+
+[2022-10-09 22:28:20,394: INFO: stage_03_train]: 
+********************
+[2022-10-09 22:28:20,395: INFO: stage_03_train]: >>>>> stage Training started <<<<<
+[2022-10-09 22:28:20,403: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-10-09 22:28:20,406: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-10-09 22:28:20,407: INFO: common]: created directory at: artifacts/model
+[2022-10-09 22:28:20,475: INFO: stage_03_train]: Input matrix size is (17472, 2502)
+[2022-10-09 22:28:20,475: INFO: stage_03_train]: X matrix size is (17472, 2500)
+[2022-10-09 22:28:20,475: INFO: stage_03_train]: Y matrix size is (17472,)
+[2022-10-09 22:28:20,475: INFO: stage_03_train]: Model training started
+[2022-10-09 23:05:22,532: INFO: stage_03_train]: Model training completed
+[2022-10-09 23:05:25,181: INFO: stage_03_train]: Successfully saved the model at artifacts/model/model
+[2022-10-09 23:05:25,217: INFO: stage_03_train]: >>>>> stage Training completed!<<<<<
+
+[2022-10-09 23:11:52,168: INFO: stage_03_train]: 
+********************
+[2022-10-09 23:11:52,168: INFO: stage_03_train]: >>>>> stage Training started <<<<<
+[2022-10-09 23:11:52,177: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-10-09 23:11:52,182: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-10-09 23:11:52,183: INFO: common]: created directory at: artifacts/model
+[2022-10-09 23:11:52,413: INFO: stage_03_train]: Input matrix size is (17472, 2502)
+[2022-10-09 23:11:52,413: INFO: stage_03_train]: X matrix size is (17472, 2500)
+[2022-10-09 23:11:52,413: INFO: stage_03_train]: Y matrix size is (17472,)
+[2022-10-09 23:11:52,413: INFO: stage_03_train]: Model training started
+[2022-10-09 23:29:45,455: INFO: stage_03_train]: Model training completed
+[2022-10-09 23:29:46,748: INFO: stage_03_train]: Successfully saved the model at artifacts/model/model.pkl
+[2022-10-09 23:29:46,790: INFO: stage_03_train]: >>>>> stage Training completed!<<<<<
+
