@@ -16,26 +16,26 @@ repo_url: https://github.com/001DEEPANSHU/NLP_DVC_Project
 # Configuration
 theme:
   name: readthedocs
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - navigation.top
-  language: en
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
-      primary: teal
-      accent: purple 
-    - scheme: slate 
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: teal
-      accent: lime    
-  # logo: 
+  # features:
+  #   - navigation.tabs
+  #   - navigation.sections
+  #   - toc.integrate
+  #   - navigation.top
+  # language: en
+  # palette:
+  #   - scheme: default
+  #     toggle:
+  #       icon: material/toggle-switch-off-outline 
+  #       name: Switch to dark mode
+  #     primary: teal
+  #     accent: purple 
+  #   - scheme: slate 
+  #     toggle:
+  #       icon: material/toggle-switch
+  #       name: Switch to light mode    
+  #     primary: teal
+  #     accent: lime    
+  # # logo: 
   
 extra:
   social:
