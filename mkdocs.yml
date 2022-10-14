@@ -15,7 +15,7 @@ repo_url: https://github.com/001DEEPANSHU/NLP_DVC_Project
 
 # Configuration
 theme:
-  name: material
+  name: readthedocs
   features:
     - navigation.tabs
     - navigation.sections
@@ -35,7 +35,7 @@ theme:
         name: Switch to light mode    
       primary: teal
       accent: lime    
-  # logo: PyTorch_logo_icon.svg
+  # logo: 
   
 extra:
   social:

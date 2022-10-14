@@ -10,4 +10,4 @@ Scipy
 lxml
 joblib
 ### local packages -
--e . # << uncomment this to install from setup.py
+-e . # <<install from setup.py
