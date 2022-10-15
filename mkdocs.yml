@@ -15,31 +15,39 @@ repo_url: https://github.com/001DEEPANSHU/StackOverflow-tag-prediction_DVC
 
 # Configuration
 theme:
-  name: readthedocs
-  # features:
-  #   - navigation.tabs
-  #   - navigation.sections
-  #   - toc.integrate
-  #   - navigation.top
-  # language: en
-  # palette:
-  #   - scheme: default
-  #     toggle:
-  #       icon: material/toggle-switch-off-outline 
-  #       name: Switch to dark mode
-  #     primary: teal
-  #     accent: purple 
-  #   - scheme: slate 
-  #     toggle:
-  #       icon: material/toggle-switch
-  #       name: Switch to light mode    
-  #     primary: teal
-  #     accent: lime    
-  # # logo: 
-  
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+  language: en
+  icon: 
+    repo: fontawesome/brands/github
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: indigo
+      accent: indigo 
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode    
+      primary: indigo
+      accent: indigo    
+
+
+
+
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
+    - icon: fontawesome/brands/github
+      name: Deepanshu on Github
       link: https://github.com/001DEEPANSHU
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/deepanshu-kaushik-795567154/
@@ -61,6 +69,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
+  - attr_list
+  - md_in_html
   
   
 plugins:
@@ -68,3 +78,4 @@ plugins:
 
 copyright: |
   &copy; 2022 <a href="https://github.com/001DEEPANSHU/"  target="_blank" rel="noopener">Deepanshu Kaushik</a>
+

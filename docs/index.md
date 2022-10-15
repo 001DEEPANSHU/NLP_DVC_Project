@@ -1,34 +1,16 @@
-# dvc-project-template
-Welcome to the documentation of DVC project template
+# Welcome to the documentation of StackOverflow Tag Prediction Project
 
-## STEPS -
+## Project Overview:
+Stack Overflow is a Q&A website where we can post our queries or questions on a wide range of programming topics and get feedback from other users.
 
-### STEP 01- Create a repository by using template repository
+![Logo](https://miro.medium.com/max/1200/1*yg2DHASe7om_TsIz0E5UuA.png){ align=right, width="600" }
 
-### STEP 02- Clone the new repository
+On Stack Overflow, each question must have a minimum of one tag. Tags are simple keywords( or we can say labels) assist in grouping the new query/question with others of a similar nature.
+It's critical that questions are accurately classified because doing so makes it simpler for everyone to identify the questions they're looking for and answer them.
+Here, I solved the Binary Classification problem of predicting questions asked on StackOverflow having "Python" tags.
 
-### STEP 03- Create a conda environment after opening the repository in VSCODE
+## Methodology:
 
-```bash
-conda create --prefix ./env python=3.7 -y
-```
 
-```bash
-conda activate ./env
-```
-OR
-```bash
-source activate ./env
-```
 
-### STEP 04- install the requirements
-```bash
-pip install -r requirements.txt
-```
-
-### STEP 05- initialize the dvc project
-```bash
-dvc init
-```
-
-### STEP 06- commit and push the changes to the remote repository
+### 
