@@ -3,7 +3,8 @@ site_name: StackOverflow Tag Prediction
 # defeine TOC or order of website-
 nav:
   - Home: index.md
-  - Data-Preparation: stage1dataprep.md
+  - Project Workflow: workflow.md
+  - Data Preparation: stage1dataprep.md
 
 site_author: Deepanshu Kaushik
 site_description: >-
@@ -17,9 +18,9 @@ repo_url: https://github.com/001DEEPANSHU/StackOverflow-tag-prediction_DVC
 theme:
   name: material
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
+    - navigation.tracking
+    
+    # - navigation.sections
     - toc.follow
     - toc.integrate
     - navigation.top

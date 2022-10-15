@@ -148,3 +148,6 @@ env
 
 #running logs
 logs/running_logs.log
+
+#workflow ppt
+docs/img/workflow.pptx
