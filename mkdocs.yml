@@ -10,8 +10,8 @@ site_description: >-
   StackOverflow tag prediction: Project Workflow and Description
 
 # Repository
-repo_name: 001DEEPANSHU/NLP_DVC_Project
-repo_url: https://github.com/001DEEPANSHU/NLP_DVC_Project
+repo_name: StackOverflow-tag-prediction_DVC
+repo_url: https://github.com/001DEEPANSHU/StackOverflow-tag-prediction_DVC
 
 # Configuration
 theme:

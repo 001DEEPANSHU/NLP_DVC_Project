@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 
-REPO_NAME = "NLP_DVC_Project"
+REPO_NAME = "StackOverflow-tag-prediction_DVC"
 AUTHOR_USER_NAME = "DEEPANSHU KAUSHIK"
 SRC_REPO = "src"
 LIST_OF_REQUIREMENTS = []
