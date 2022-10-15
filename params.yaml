@@ -5,7 +5,7 @@ prepare:
   tag: <python>
 
 featurize:
-  max_features: 2500
+  max_features: 100
   n_grams: 2 
 
 train:
